@@ -1,3 +1,4 @@
 Get-ExecutionPolicy -List -lista politici securitate
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy AllSigned   - modifica procesele din nedefinit in AllSigned
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted 
+ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Undefined
